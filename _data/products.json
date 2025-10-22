@@ -276,7 +276,7 @@
       "edition": "Édition mondiale limitée à 99 exemplaires", // Édition identique
       "category": "Maroquinerie",
       "availability": "Sur commande",
-      "delivery_time": "4-6 semaines", // Délai identique
+      "delivery_time": "4-12 jours", // Délai identique
       "manufacturing": "Londres", 
       "design": "Guadeloupe", 
       "featured": false, 
@@ -313,7 +313,7 @@
       "edition": "Édition mondiale limitée à 99 exemplaires", // Édition mise à jour
       "category": "Maroquinerie",
       "availability": "Sur commande",
-      "delivery_time": "6-8 semaines", // Délai mis à jour
+      "delivery_time": "2-12j", // Délai mis à jour
       "manufacturing": "Londres", 
       "design": "Guadeloupe", 
       "featured": false, 
@@ -348,7 +348,7 @@
       "edition": "Édition mondiale limitée à 99 exemplaires", // Édition mise à jour
       "category": "Accessoires",
       "availability": "Disponible", // Disponibilité mise à jour
-      "delivery_time": "1-2 semaines", // Délai mis à jour
+      "delivery_time": "2-4j", // Délai mis à jour
       "manufacturing": "Londres", 
       "design": "Guadeloupe", 
       "featured": false, 
