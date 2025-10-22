@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEYMR® | Demande enregistrée</title>
+    
+    <meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Confirmation de votre demande d'acquisition SEYMR®. Un conseiller vous contactera sous 24 heures.">
+    
+    <link rel="canonical" href="https://seymr.art/merci.html">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <style>
+        :root{--or-souverain:#D4AF37;--noir-absolu:#0A0A0A;--blanc-pur:#FAFAFA;--gris-noble:#2A2A2A;--font-titre:'Cormorant Garamond',serif;--font-corps:'Montserrat',sans-serif}*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:var(--font-corps);background:var(--noir-absolu);color:var(--blanc-pur);overflow-x:hidden}.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;position:relative}nav{position:fixed;width:100%;z-index:1000;transition:all .3s}
+    </style>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .section-merci {
+            padding-top: 150px;
+            padding-bottom: var(--space-xl);
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .merci-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .merci-content .section-title {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            margin-bottom: 1rem;
+        }
+        .merci-content .separator-dore {
+            margin: 0 auto 2rem auto;
+        }
+        .success-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 2rem;
+            border: 2px solid var(--or-souverain);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: var(--or-souverain);
+            animation: scaleIn 0.5s ease;
+        }
+        @keyframes scaleIn {
+            from { transform: scale(0); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+        .next-steps {
+            background: var(--gris-noble);
+            padding: 2rem;
+            margin: 3rem 0;
+            border-left: 3px solid var(--or-souverain);
+            text-align: left;
+        }
+        .next-steps h3 {
+            font-family: var(--font-corps);
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--or-souverain);
+            margin-bottom: 1.5rem;
+        }
+        .step {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1.5rem;
+        }
+        .step-number {
+            background: var(--or-souverain);
+            color: var(--noir-absolu);
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            flex-shrink: 0;
+            margin-right: 1rem;
+        }
+        .step-content h4 {
+            font-size: 1rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+            color: var(--blanc-pur);
+        }
+        .step-content p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            opacity: 0.8;
+            margin: 0;
+        }
+        .merci-content p {
+            font-family: var(--font-corps);
+            font-weight: 300;
+            line-height: 1.8;
+            margin-bottom: 1.5em;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        .cta-group {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 3rem;
+        }
+        .btn-retour, .btn-secondary {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            font-size: 0.9rem;
+            font-weight: 400;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            transition: all var(--transition-normal);
+            text-decoration: none;
+        }
+        .btn-retour {
+            background: var(--or-souverain);
+            color: var(--noir-absolu);
+            border: 1px solid var(--or-souverain);
+        }
+        .btn-retour:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(212, 175, 55, 0.3);
+        }
+        .btn-secondary {
+            border: 1px solid var(--gris-clair);
+            color: var(--blanc-pur);
+        }
+        .btn-secondary:hover {
+            border-color: var(--or-souverain);
+            color: var(--or-souverain);
+        }
+        .email-notice {
+            background: rgba(212, 175, 55, 0.1);
+            padding: 1.5rem;
+            border-radius: 4px;
+            margin: 2rem 0;
+            font-size: 0.95rem;
+        }
+        .email-notice strong {
+            color: var(--or-souverain);
+        }
+    </style>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+      
+      gtag('event', 'conversion', {
+          'send_to': 'G-XXXXXXXXXX/CONVERSION_ID',
+          'transaction_id': ''
+      });
+    </script>
+</head>
+<body>
+    <a href="#main" class="skip-link">Aller au contenu principal</a>
+    
+    <nav role="navigation" aria-label="Navigation principale">
+        <div class="nav-container">
+            <a href="/index.html" class="nav-logo" aria-label="SEYMR - Accueil">SEYMR®</a>
+            <div class="nav-center">
+                <ul class="nav-menu" role="menubar">
+                    <li role="none"><a href="/index.html#oeuvre" class="nav-link" role="menuitem">L'œuvre</a></li>
+                    <li role="none"><a href="/index.html#philosophie" class="nav-link" role="menuitem">Philosophie</a></li>
+                    <li role="none"><a href="/index.html#creations" class="nav-link" role="menuitem">Créations</a></li>
+                    <li role="none"><a href="/index.html#livre" class="nav-link" role="menuitem">Le Livre</a></li>
+                    <li role="none"><a href="/index.html#archives" class="nav-link" role="menuitem">Archives</a></li>
+                    <li role="none"><a href="/index.html#contact" class="nav-link" role="menuitem">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <button class="theme-toggle" id="themeToggle" aria-label="Basculer le thème">
+                    <span class="theme-icon"></span>
+                </button>
+                <a href="#sanctuaire" class="nav-link sanctuary-link" id="sanctuary-link">Sanctuaire</a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menu mobile" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="navigation-overlay" class="navigation-overlay" aria-hidden="true">
+        <ul class="mobile-nav" role="menu">
+            <li role="none"><a href="/index.html#oeuvre" class="nav-link" role="menuitem">L'œuvre</a></li>
+            <li role="none"><a href="/index.html#philosophie" class="nav-link" role="menuitem">Philosophie</a></li>
+            <li role="none"><a href="/index.html#creations" class="nav-link" role="menuitem">Créations</a></li>
+            <li role="none"><a href="/index.html#livre" class="nav-link" role="menuitem">Le Livre</a></li>
+            <li role="none"><a href="/index.html#archives" class="nav-link" role="menuitem">Archives</a></li>
+            <li role="none"><a href="/index.html#contact" class="nav-link" role="menuitem">Contact</a></li>
+            <li role="none"><a href="#sanctuaire" class="nav-link sanctuary-mobile" role="menuitem">Sanctuaire</a></li>
+        </ul>
+    </div>
+
+    <main id="main">
+        <section class="section-merci">
+            <div class="container">
+                <div class="merci-content">
+                    <div class="success-icon" aria-hidden="true">✓</div>
+                    
+                    <h1 class="section-title">Demande Enregistrée</h1>
+                    <div class="separator-dore"></div>
+                    
+                    <p>
+                        Votre demande d'acquisition a été transmise avec succès à la Maison SEYMR®.
+                    </p>
+                    
+                    <div class="email-notice">
+                        <strong>📧 Vérifiez votre messagerie</strong><br>
+                        Un courriel de confirmation contenant tous les détails de votre demande vous a été adressé.
+                    </div>
+
+                    <div class="next-steps">
+                        <h3>Prochaines Étapes</h3>
+                        
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Contact privilégié sous 24 heures</h4>
+                                <p>Un conseiller dédié prendra contact avec vous pour étudier votre projet, répondre à vos questions et préciser les détails de personnalisation éventuels.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Validation des spécifications</h4>
+                                <p>Nous confirmerons ensemble les caractéristiques définitives, le délai de création et les modalités d'acquisition.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Lien de paiement sécurisé</h4>
+                                <p>Une fois tous les détails validés, nous vous transmettrons un lien de paiement personnalisé via Stripe pour finaliser votre acquisition en toute sécurité.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Création et acheminement</h4>
+                                <p>Votre pièce sera façonnée manuellement dans notre atelier londonien, puis acheminée avec traçabilité intégrale vers votre destination.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p style="font-style: italic; opacity: 0.8;">
+                        Nous vous remercions de la confiance accordée à notre Maison et de votre adhésion à notre vision.
+                    </p>
+
+                    <div class="cta-group">
+                        <a href="/index.html" class="btn-retour">Retour à l'accueil</a>
+                        <a href="/index.html#creations" class="btn-secondary">Voir les créations</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <p class="footer-logo">SEYMR®</p>
+                    <p class="footer-tagline">Maison de Création • Depuis MMXVIII</p>
+                </div>
+                <div class="footer-contact">
+                    <p>Saint-Barthélemy • Londres • Guadeloupe</p>
+                    <p><a href="tel:+590691267209">+590 691 267 209</a></p>
+                    <p><a href="mailto:concierge@seymr.art">concierge@seymr.art</a></p>
+                </div>
+                <div class="footer-legal">
+                    <p>© SEYMR® 2025. Tous droits réservés.</p>
+                    <p>
+                        <a href="/mentions-legales.html">Mentions légales</a> • 
+                        <a href="/confidentialite.html">Confidentialité</a> • 
+                        <a href="/cgv.html">Conditions de Vente</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js" defer></script>
+</body>
+</html>

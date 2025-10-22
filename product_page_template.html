@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fauteuil SISIT - Sculpture Fonctionnelle | SEYMR®</title>
+    
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Fauteuil SISIT SEYMR® - Sculpture fonctionnelle en édition limitée à 44 exemplaires. Velours haute couture, bois FSC. 25 000 €. Façonné à Londres.">
+    <meta name="keywords" content="fauteuil SISIT, SEYMR, art fréquentiel, mobilier luxe, édition limitée, sculpture fonctionnelle">
+    
+    <meta property="og:title" content="Fauteuil SISIT - Sculpture Fonctionnelle | SEYMR®">
+    <meta property="og:description" content="Édition limitée à 44 exemplaires. Le fauteuil SEYMR® transcende la fonction pour devenir présence.">
+    <meta property="og:type" content="product">
+    <meta property="og:url" content="https://seymr.art/fauteuil-sisit">
+    <meta property="og:image" content="https://seymr.art/assets/fauteuil-sisit-1-studio.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="product:price:amount" content="25000">
+    <meta property="product:price:currency" content="EUR">
+    
+    <link rel="canonical" href="https://seymr.art/fauteuil-sisit">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <style>
+        :root{--or-souverain:#D4AF37;--noir-absolu:#0A0A0A;--blanc-pur:#FAFAFA;--gris-noble:#2A2A2A;--font-titre:'Cormorant Garamond',serif;--font-corps:'Montserrat',sans-serif}*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:var(--font-corps);background:var(--noir-absolu);color:var(--blanc-pur);overflow-x:hidden;min-height:100vh;font-weight:300;line-height:1.6}nav{position:fixed;top:0;width:100%;z-index:1000;background:rgba(10,10,10,0.98);backdrop-filter:blur(10px);transition:all .3s}
+    </style>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/product_page.css">
+    
+    <style>
+        .product-hero {
+            padding-top: 120px;
+            padding-bottom: 60px;
+            min-height: 100vh;
+        }
+        .product-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 var(--space-md);
+        }
+        .product-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: start;
+        }
+        
+        /* Galerie produit */
+        .product-gallery {
+            position: sticky;
+            top: 140px;
+        }
+        .main-image {
+            width: 100%;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            aspect-ratio: 4/3;
+            object-fit: cover;
+        }
+        .thumbnail-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0.5rem;
+        }
+        .thumbnail {
+            aspect-ratio: 1;
+            object-fit: cover;
+            border-radius: 4px;
+            cursor: pointer;
+            opacity: 0.6;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        .thumbnail:hover, .thumbnail.active {
+            opacity: 1;
+            border-color: var(--or-souverain);
+        }
+        
+        /* Détails produit */
+        .product-details {
+            padding: 2rem 0;
+        }
+        .product-breadcrumb {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 1.5rem;
+            opacity: 0.6;
+        }
+        .product-breadcrumb a {
+            color: var(--blanc-pur);
+            text-decoration: none;
+        }
+        .product-breadcrumb a:hover {
+            color: var(--or-souverain);
+        }
+        .product-title {
+            font-family: var(--font-titre);
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 300;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+        .product-tagline {
+            font-family: var(--font-titre);
+            font-size: 1.3rem;
+            font-style: italic;
+            opacity: 0.8;
+            margin-bottom: 2rem;
+        }
+        .product-price {
+            font-size: 2rem;
+            color: var(--or-souverain);
+            font-weight: 500;
+            margin-bottom: 2rem;
+            font-family: var(--font-titre);
+        }
+        
+        /* Specs */
+        .product-specs {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin: 2rem 0;
+            padding: 2rem;
+            background: var(--gris-noble);
+            border-left: 3px solid var(--or-souverain);
+        }
+        .spec-item {
+            display: flex;
+            flex-direction: column;
+        }
+        .spec-label {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            opacity: 0.6;
+            margin-bottom: 0.3rem;
+        }
+        .spec-value {
+            font-size: 1rem;
+            font-weight: 400;
+        }
+        
+        /* Description */
+        .product-description {
+            margin: 3rem 0;
+        }
+        .product-description h3 {
+            font-family: var(--font-titre);
+            font-size: 1.5rem;
+            color: var(--or-souverain);
+            margin: 2rem 0 1rem;
+        }
+        .product-description p {
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            opacity: 0.9;
+        }
+        .product-description ul {
+            list-style: none;
+            padding-left: 1.5rem;
+        }
+        .product-description li {
+            position: relative;
+            margin-bottom: 0.8rem;
+            line-height: 1.6;
+        }
+        .product-description li::before {
+            content: "•";
+            position: absolute;
+            left: -1.5rem;
+            color: var(--or-souverain);
+            font-weight: bold;
+        }
+        
+        /* CTA */
+        .product-cta {
+            position: sticky;
+            bottom: 0;
+            background: var(--noir-absolu);
+            padding: 2rem 0;
+            border-top: 1px solid var(--gris-noble);
+            margin-top: 3rem;
+        }
+        .btn-acquire-product {
+            display: inline-block;
+            padding: 1.2rem 3rem;
+            background: var(--or-souverain);
+            color: var(--noir-absolu);
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            width: 100%;
+            text-align: center;
+        }
+        .btn-acquire-product:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(212, 175, 55, 0.4);
+        }
+        .cta-secondary {
+            display: block;
+            text-align: center;
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+        
+        /* Responsive */
+        @media (max-width: 992px) {
+            .product-layout {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            .product-gallery {
+                position: static;
+            }
+            .product-specs {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    
+    <!-- Schema.org Product enrichi -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Fauteuil SISIT",
+      "description": "Sculpture fonctionnelle en édition limitée à 44 exemplaires. Le fauteuil SEYMR® transcende la fonction pour devenir présence, où la géométrie sacrée rencontre le confort absolu.",
+      "image": [
+        "https://seymr.art/assets/fauteuil-sisit-1-studio.webp",
+        "https://seymr.art/assets/fauteuil-sisit-2-studio.webp",
+        "https://seymr.art/assets/fauteuil-sisit-3-angle.webp",
+        "https://seymr.art/assets/fauteuil-sisit-4-angle-bas.webp"
+      ],
+      "sku": "SEYMR-SISIT-001",
+      "mpn": "SISIT-44",
+      "brand": {
+        "@type": "Brand",
+        "name": "SEYMR®"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://seymr.art/fauteuil-sisit",
+        "priceCurrency": "EUR",
+        "price": "25000",
+        "priceValidUntil": "2025-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/LimitedAvailability",
+        "seller": {
+          "@type": "Organization",
+          "name": "SEYMR®"
+        }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "1"
+      },
+      "material": "Velours haute couture, mousse haute densité 45 kg/m³, bois certifié FSC",
+      "width": {
+        "@type": "QuantitativeValue",
+        "value": "63",
+        "unitCode": "CMT"
+      },
+      "height": {
+        "@type": "QuantitativeValue",
+        "value": "74",
+        "unitCode": "CMT"
+      },
+      "depth": {
+        "@type": "QuantitativeValue",
+        "value": "49",
+        "unitCode": "CMT"
+      },
+      "weight": {
+        "@type": "QuantitativeValue",
+        "value": "7",
+        "unitCode": "KGM"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Édition",
+          "value": "Limitée à 44 exemplaires numérotés"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Fabrication",
+          "value": "Londres"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Conception",
+          "value": "Guadeloupe"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Garantie",
+          "value": "10 ans"
+        }
+      ]
+    }
+    </script>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+      
+      // Événement GA4 - Vue produit
+      gtag('event', 'view_item', {
+        currency: 'EUR',
+        value: 25000,
+        items: [{
+          item_id: 'SEYMR-SISIT-001',
+          item_name: 'Fauteuil SISIT',
+          item_category: 'Mobilier',
+          item_brand: 'SEYMR',
+          price: 25000,
+          quantity: 1
+        }]
+      });
+    </script>
+</head>
+<body>
+    <a href="#main" class="skip-link">Aller au contenu principal</a>
+    
+    <nav role="navigation" aria-label="Navigation principale">
+        <div class="nav-container">
+            <a href="/index.html" class="nav-logo" aria-label="SEYMR - Accueil">SEYMR®</a>
+            <div class="nav-center">
+                <ul class="nav-menu" role="menubar">
+                    <li role="none"><a href="/index.html#oeuvre" class="nav-link" role="menuitem">L'Œuvre</a></li>
+                    <li role="none"><a href="/index.html#philosophie" class="nav-link" role="menuitem">Philosophie</a></li>
+                    <li role="none"><a href="/index.html#creations" class="nav-link" role="menuitem">Créations</a></li>
+                    <li role="none"><a href="/index.html#contact" class="nav-link" role="menuitem">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <button class="theme-toggle" id="themeToggle" aria-label="Basculer le thème">
+                    <span class="theme-icon"></span>
+                </button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menu mobile" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main">
+        <section class="product-hero">
+            <div class="product-container">
+                <nav class="product-breadcrumb" aria-label="Fil d'Ariane">
+                    <a href="/index.html">Accueil</a> / 
+                    <a href="/index.html#creations">Créations</a> / 
+                    <span>Fauteuil SISIT</span>
+                </nav>
+
+                <div class="product-layout">
+                    <!-- Galerie -->
+                    <div class="product-gallery">
+                        <img src="assets/fauteuil-sisit-1-studio.webp" 
+                             alt="Fauteuil SISIT SEYMR® - Vue principale" 
+                             class="main-image" 
+                             id="mainImage"
+                             fetchpriority="high">
+                        
+                        <div class="thumbnail-grid">
+                            <img src="assets/fauteuil-sisit-1-studio.webp" alt="Vue 1" class="thumbnail active" data-full="assets/fauteuil-sisit-1-studio.webp">
+                            <img src="assets/fauteuil-sisit-2-studio.webp" alt="Vue 2" class="thumbnail" data-full="assets/fauteuil-sisit-2-studio.webp">
+                            <img src="assets/fauteuil-sisit-3-angle.webp" alt="Vue 3" class="thumbnail" data-full="assets/fauteuil-sisit-3-angle.webp">
+                            <img src="assets/fauteuil-sisit-4-angle-bas.webp" alt="Vue 4" class="thumbnail" data-full="assets/fauteuil-sisit-4-angle-bas.webp">
+                        </div>
+                    </div>
+
+                    <!-- Détails -->
+                    <div class="product-details">
+                        <h1 class="product-title">Fauteuil « SISIT »</h1>
+                        <p class="product-tagline">L'art comme expérience à vivre</p>
+                        <div class="product-price">25 000 €</div>
+
+                        <div class="product-specs">
+                            <div class="spec-item">
+                                <span class="spec-label">Édition</span>
+                                <span class="spec-value">44 exemplaires numérotés</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Fabrication</span>
+                                <span class="spec-value">Londres</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Dimensions</span>
+                                <span class="spec-value">H 74 × L 63 × P 49 cm</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Poids</span>
+                                <span class="spec-value">7 kg</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Matériaux</span>
+                                <span class="spec-value">Velours haute couture, Bois FSC</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Délai</span>
+                                <span class="spec-value">4-12 jours</span>
+                            </div>
+                        </div>
+
+                        <div class="product-description">
+                            <h3>L'Œuvre</h3>
+                            <p>Le fauteuil SEYMR® naît d'une ambition rare : inviter l'art dans l'intimité du quotidien, non comme un objet de contemplation, mais comme une expérience à vivre. Il est le fruit d'un dialogue entre la fulgurance créative de la Guadeloupe et l'excellence artisanale de Londres.</p>
+
+                            <h3>L'Œuvre Transposée</h3>
+                            <p>Le motif qui l'habille n'est pas un imprimé, mais la rémanence d'une œuvre d'art unique, originale et certifiée. Grâce à un procédé de pointe, le pigment imprègne le cœur même de la fibre du velours, transposant l'émotion et le geste de l'artiste avec une fidélité absolue.</p>
+
+                            <h3>La Quintessence de la Matière</h3>
+                            <p>L'assise, généreuse et structurée par une mousse de très haute densité (45 kg/m³), offre une promesse de confort et de tenue durable. Elle est gainée d'un velours haute couture, dont le toucher profond et la texture subtile servent d'écrin au motif. L'ensemble repose sur un piètement épuré en bois noble, issu de forêts gérées durablement (label FSC).</p>
+
+                            <h3>Une Signature d'Exclusivité</h3>
+                            <p>Seuls quarante-quatre exemplaires de ce fauteuil seront édités pour le monde. Chaque pièce est numérotée sous l'assise, un sceau discret qui en garantit l'authenticité et la provenance. Cet engagement de rareté est complété par une garantie de dix ans.</p>
+
+                            <h3>Spécifications Complètes</h3>
+                            <ul>
+                                <li>Hauteur totale : 74 cm</li>
+                                <li>Largeur : 63 cm</li>
+                                <li>Profondeur d'assise : 49 cm</li>
+                                <li>Hauteur de dossier : 55 cm</li>
+                                <li>Largeur de dossier : 50 cm</li>
+                                <li>Piètement : Hauteur avant 23 cm / arrière 19 cm</li>
+                                <li>Mousse : Haute densité 45 kg/m³</li>
+                                <li>Certification : Bois FSC</li>
+                            </ul>
+                        </div>
+
+                        <div class="product-cta">
+                            <a href="/index.html#contact" class="btn-acquire-product" data-product="Fauteuil SISIT" id="acquireBtn">
+                                Initier l'acquisition
+                            </a>
+                            <p class="cta-secondary">Un conseiller vous contactera sous 24h</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <p class="footer-logo">SEYMR®</p>
+                    <p class="footer-tagline">Maison de Création • Depuis MMXVIII</p>
+                </div>
+                <div class="footer-contact">
+                    <p>Saint-Barthélemy • Londres • Guadeloupe</p>
+                    <p><a href="tel:+590691267209">+590 691 267 209</a></p>
+                    <p><a href="mailto:concierge@seymr.art">concierge@seymr.art</a></p>
+                </div>
+                <div class="footer-legal">
+                    <p>© SEYMR® 2025. Tous droits réservés.</p>
+                    <p>
+                        <a href="/mentions-legales.html">Mentions légales</a> • 
+                        <a href="/confidentialite.html">Confidentialité</a> • 
+                        <a href="/cgv.html">Conditions de Vente</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Galerie d'images
+        const thumbnails = document.querySelectorAll('.thumbnail');
+        const mainImage = document.getElementById('mainImage');
+        
+        thumbnails.forEach(thumb => {
+            thumb.addEventListener('click', function() {
+                thumbnails.forEach(t => t.classList.remove('active'));
+                this.classList.add('active');
+                mainImage.src = this.dataset.full;
+                
+                // GA4 - Image vue
+                gtag('event', 'select_content', {
+                    content_type: 'product_image',
+                    item_id: 'SEYMR-SISIT-001'
+                });
+            });
+        });
+        
+        // GA4 - CTA cliqué
+        document.getElementById('acquireBtn').addEventListener('click', function() {
+            gtag('event', 'add_to_cart', {
+                currency: 'EUR',
+                value: 25000,
+                items: [{
+                    item_id: 'SEYMR-SISIT-001',
+                    item_name: 'Fauteuil SISIT',
+                    item_brand: 'SEYMR',
+                    price: 25000,
+                    quantity: 1
+                }]
+            });
+        });
+        
+        // Theme toggle
+        document.getElementById('themeToggle').addEventListener('click', function() {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+        
+        // Mobile menu
+        document.getElementById('mobileMenuToggle').addEventListener('click', function() {
+            this.classList.toggle('active');
+        });
+    </script>
+</body><script src="/assets/js/main.js" defer></script>
+</html>

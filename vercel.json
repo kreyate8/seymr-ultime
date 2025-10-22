@@ -1,0 +1,68 @@
+{
+  "version": 2,
+  "regions": ["cdg1"], // Région spécifiée
+  "framework": null, // Vercel détectera qu'il n'y a pas de framework
+  "buildCommand": "npm run build", // Confirme explicitement la commande de build
+  "outputDirectory": ".", // Les fichiers HTML sont générés à la racine
+  "cleanUrls": true, // Retire les extensions .html des URLs
+  "trailingSlash": false, // N'ajoute pas de / à la fin des URLs
+  "headers": [
+    {
+      "source": "/(.*)", // Applique ces en-têtes à toutes les requêtes
+      "headers": [
+        { 
+          "key": "Content-Security-Policy", // **EN-TÊTE DE SÉCURITÉ CRUCIAL**
+          "value": "default-src 'self'; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com 'sha256-VOTRE_HASH_POUR_GTAG'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;" 
+          // ⚠️ **ACTION REQUISE**: Remplacez 'sha256-VOTRE_HASH_POUR_GTAG' par le hash sha256 réel de votre script Google Analytics inline (<script>gtag...</script>). Vous trouverez ce hash dans les erreurs de la console de votre navigateur après un premier déploiement SANS ce hash. Sans le bon hash, Google Analytics sera bloqué.
+        },
+        {
+          "key": "X-Content-Type-Options", // Empêche le navigateur d'interpréter les fichiers différemment de leur type MIME déclaré
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options", // Empêche votre site d'être affiché dans une <iframe> sur d'autres sites (protection clickjacking)
+          "value": "DENY" // DENY est le plus strict
+        },
+        {
+          "key": "X-XSS-Protection", // Active une protection XSS basique (obsolète mais sans danger à garder pour vieux navigateurs)
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Strict-Transport-Security", // **EN-TÊTE DE SÉCURITÉ CRUCIAL** - Force HTTPS
+          "value": "max-age=63072000; includeSubDomains; preload" // max-age = 2 ans, inclut sous-domaines, autorise l'inclusion dans les listes de préchargement HSTS
+        },
+        {
+          "key": "Referrer-Policy", // Contrôle quelles informations de provenance sont envoyées
+          "value": "strict-origin-when-cross-origin" // Envoie l'origine complète seulement pour la même origine, sinon juste le domaine
+        },
+        {
+          "key": "Permissions-Policy", // **EN-TÊTE DE SÉCURITÉ CRUCIAL** - Contrôle l'accès aux fonctionnalités du navigateur
+          "value": "camera=(), microphone=(), geolocation=(), interest-cohort=()" // Désactive caméra, micro, géoloc, FLoC
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*)", // Applique aux fichiers dans /assets/
+      "headers": [
+        {
+          "key": "Cache-Control", // Règle de cache pour les assets
+          "value": "public, max-age=31536000, immutable" // Cache très long (1 an) car les assets ne devraient pas changer sans changer de nom (ou versioning)
+        }
+      ]
+    },
+     {
+       "source": "/(.*\\.html|/)", // Applique aux fichiers .html et à la racine "/"
+       "headers": [ 
+         { 
+           "key": "Cache-Control", // Règle de cache pour les pages HTML
+           "value": "no-store, max-age=0" // Ne jamais mettre en cache, toujours vérifier la dernière version
+         } 
+       ]
+     }
+  ],
+  "env": { // Variables d'environnement (assurez-vous qu'elles sont définies sur Vercel)
+    "STRIPE_SECRET_KEY": "@stripe-secret-key",
+    "RESEND_API_KEY": "@resend-api-key"
+  }
+  // Pas besoin de 'rewrites' si vous avez renommé robots.txt
+}

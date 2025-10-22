@@ -1,0 +1,45 @@
+# robots.txt pour SEYMR®
+# https://seymr.art/robots.txt
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /merci.html
+Disallow: /*.json$
+
+# Fichiers d'assets
+Allow: /assets/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.webp
+Allow: /*.jpg
+Allow: /*.avif
+
+# Sitemap
+Sitemap: https://seymr.art/sitemap.xml
+
+# Moteurs de recherche spécifiques
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /assets/
+
+User-agent: Bingbot
+Allow: /
+
+# Bloquer les scrapers agressifs
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+# Délai de crawl par défaut (optionnel)
+Crawl-delay: 1

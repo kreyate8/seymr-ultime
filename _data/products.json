@@ -1,0 +1,422 @@
+{
+  "products": [
+    {
+      "id": "fauteuil-sisit",
+      "name": "Fauteuil SISIT", 
+      "display_name": "Fauteuil « SISIT »",
+      "tagline": "L'art quitte le mur pour habiter le quotidien.", 
+      "price": "16 000 €", // Prix mis à jour
+      "price_numeric": 16000, // Prix mis à jour
+      "price_cents": 1600000, // Prix mis à jour
+      "currency": "EUR",
+      "edition": "Édition mondiale limitée à 22 exemplaires numérotés", // Édition mise à jour
+      "category": "Mobilier",
+      "availability": "Sur commande",
+      "delivery_time": "8-12 semaines", // Délai mis à jour (depuis le nouveau texte)
+      "manufacturing": "Londres", 
+      "design": "Guadeloupe", 
+      "featured": true, 
+      "description_short": "Sculpture fonctionnelle, édition 22 ex. Velours haute couture.", // Mis à jour
+      "description_long": "L'art quitte le mur pour habiter le quotidien. Ce fauteuil transpose une œuvre originale certifiée par imprégnation pigmentaire au cœur même de la fibre du velours.", // Mis à jour
+      "materials": "Velours haute couture, mousse 45 kg/m³, piètement bois certifié FSC", // Mis à jour
+      "specs": { // Specs mises à jour
+        "height": "74 cm",
+        "width": "63 cm",
+        "depth": "49 cm", // Profondeur d'assise
+        "weight": "7 kg"
+      },
+      "images": { // Conservé de l'ancienne version
+        "main": "assets/fauteuil-sisit-1-studio.webp",
+        "gallery": [
+          "assets/fauteuil-sisit-1-studio.webp",
+          "assets/fauteuil-sisit-2-studio.webp",
+          "assets/fauteuil-sisit-3-angle.webp",
+          "assets/fauteuil-sisit-4-angle bas.webp",
+          "assets/fauteuil-sisit-5-angle.webp"
+        ]
+      },
+      "seo": { // Conservé de l'ancienne version
+        "title": "Fauteuil SISIT - Sculpture Fonctionnelle | SEYMR®",
+        "description": "Sculpture fonctionnelle en édition limitée à 22 exemplaires. Velours haute couture, mousse haute densité 45 kg/m³, piètement FSC. Fabriqué à Londres.", // Édition mise à jour
+        "keywords": "fauteuil design, sculpture fonctionnelle, art fréquentiel, édition limitée, mobilier luxe, velours haute couture"
+      }
+    },
+    {
+      "id": "paravent",
+      "name": "Paravent", 
+      "display_name": "Paravent", // Nom simplifié
+      "tagline": "Architecture modulable en quatre panneaux.", 
+      "price": "8 000 €", // Prix mis à jour
+      "price_numeric": 8000, // Prix mis à jour
+      "price_cents": 800000, // Prix mis à jour
+      "currency": "EUR",
+      "edition": "Édition mondiale limitée à 44 exemplaires", // Édition mise à jour
+      "category": "Mobilier",
+      "availability": "Sur commande",
+      "delivery_time": "6-10 semaines", // Délai mis à jour
+      "manufacturing": "Londres", 
+      "design": "Guadeloupe", 
+      "featured": false, 
+      "description_short": "Architecture modulable 4 panneaux. Scultpe l'espace.", // Mis à jour
+      "description_long": "Le paravent sculpte l'espace sans l'enfermer, créant des sanctuaires intimes au sein d'un volume plus vaste. Son motif symétrique agit comme une frontière perceptuelle.", // Mis à jour
+      "materials": "Support textile, Structure bois, Charnières haute précision", // Mis à jour
+       "specs": { // Specs mises à jour
+         "total_width": "224 cm",
+         "height": "152 cm",
+         "panels": "4"
+       },
+      "images": { // Conservé
+        "main": "assets/paravent-1-studio.webp",
+        "gallery": [
+          "assets/paravent-1-studio.webp",
+          "assets/paravent-1-ambiance.webp"
+        ]
+      },
+      "seo": { // Conservé
+        "title": "Paravent SEYMR® - Structure Modulable | SEYMR®", // Nom ajusté
+        "description": "Architecture modulable en 4 panneaux (224×152 cm). Transposition d'œuvre originale, assemblage manuel à Londres.", // Description ajustée
+        "keywords": "paravent design, séparateur espace, architecture modulable, art fréquentiel, mobilier luxe"
+      }
+    },
+    {
+      "id": "tapis-nexus",
+      "name": "Tapis NEXUS", 
+      "display_name": "Tapis « NEXUS »",
+      "tagline": "Un tapis définit un territoire.", 
+      "price": "6 500 €", // Prix identique
+      "price_numeric": 6500, // Prix identique
+      "price_cents": 650000, // Prix identique
+      "currency": "EUR",
+      "edition": "Édition mondiale limitée à 44 exemplaires", // Édition mise à jour
+      "category": "Textile",
+      "availability": "Sur commande",
+      "delivery_time": "6-8 semaines", // Délai identique
+      "manufacturing": "Londres", 
+      "design": "Guadeloupe", 
+      "featured": false, 
+      "description_short": "Panne de velours marbrée, tissage haute densité.", // Mis à jour
+      "description_long": "Celui-ci établit une zone d'influence qui commande l'ordonnancement de la pièce entière. Marcher sur ses motifs, c'est interagir avec une cartographie visuelle.", // Mis à jour
+      "materials": "Panne de velours marbrée, frange coton", // Mis à jour
+      "specs": { // Specs identiques
+        "width": "128 cm",
+        "length": "150 cm"
+      },
+      "images": { // Conservé
+        "main": "assets/tapis-nexus-1-ambiance.webp",
+        "gallery": [
+          "assets/tapis-nexus-1-ambiance.webp",
+          "assets/tapis-nexus-2-ambiance.webp" 
+        ]
+      },
+      "seo": { // Conservé
+        "title": "Tapis NEXUS - Velours Marbré | SEYMR®",
+        "description": "Tapis en panne de velours marbrée (128×150 cm). Tissage haute densité, finitions franges coton. Fabriqué à Londres.",
+        "keywords": "tapis design, velours marbré, art fréquentiel, textile luxe, décoration"
+      }
+    },
+    {
+      "id": "repose-pieds-satellite",
+      "name": "Repose-pieds SATELLITE", 
+      "display_name": "Repose-Pieds SATELLITE", // Majuscule ajustée
+      "tagline": "Extension d'un fauteuil ou sculpture autonome.", 
+      "price": "4 800 €", // Prix mis à jour
+      "price_numeric": 4800, // Prix mis à jour
+      "price_cents": 480000, // Prix mis à jour
+      "currency": "EUR",
+      "edition": "Édition mondiale limitée à 44 exemplaires", // Édition mise à jour
+      "category": "Mobilier",
+      "availability": "Sur commande",
+      "delivery_time": "4-6 semaines", // Délai mis à jour
+      "manufacturing": "Londres", 
+      "design": "Guadeloupe", 
+      "featured": false, 
+      "description_short": "Velours ignifugé, structure bois FSC.", // Mis à jour
+      "description_long": "Conçu comme extension d'un fauteuil ou comme sculpture autonome, SATELLITE complète l'harmonie spatiale de la pièce.", // Mis à jour
+      "materials": "Velours ignifugé, structure et piètement en bois certifié FSC", // Mis à jour
+      "specs": { // Specs mises à jour
+        "dimensions": "38 x 38 x 39 cm",
+        "weight": "3.5 kg",
+        "details": "Piètement 25cm, Coussin 14cm"
+      },
+      "images": { // Conservé
+        "main": "assets/repose-pieds-satellite-1-studio.webp",
+        "gallery": [
+          "assets/repose-pieds-satellite-1-studio.webp",
+          "assets/repose-pieds-satellite-2-studio.webp",
+          "assets/repose-pieds-satellite-3-studio.webp"
+        ]
+      },
+      "seo": { // Conservé
+        "title": "Repose-Pieds SATELLITE | SEYMR®",
+        "description": "Sculpture autonome (38×38×39 cm, 3,5 kg). Velours ignifugé, structure bois FSC. Artisanat londonien.", // Tissu mis à jour
+        "keywords": "repose-pieds design, ottoman, sculpture fonctionnelle, mobilier luxe"
+      }
+    },
+    {
+      "id": "pouf-cosmosis",
+      "name": "Pouf COSMOSIS", 
+      "display_name": "Pouf COSMOSIS", // Nom ajusté
+      "tagline": "Sphère de 70 cm qui impose sa présence magnétique.", 
+      "price": "3 200 €", // Prix mis à jour
+      "price_numeric": 3200, // Prix mis à jour
+      "price_cents": 320000, // Prix mis à jour
+      "currency": "EUR",
+      "edition": "Édition mondiale limitée à 44 exemplaires", // Édition mise à jour
+      "category": "Mobilier",
+      "availability": "Sur commande",
+      "delivery_time": "4-6 semaines", // Délai mis à jour
+      "manufacturing": "Londres", 
+      "design": "Guadeloupe", 
+      "featured": false, 
+      "description_short": "Suédine haute densité, garnissage viscoélastique.", // Mis à jour
+      "description_long": "Son volume sphérique commande l'espace environnant, agissant comme pivot visuel de la pièce. Habillé d'une impression à la fidélité muséale du motif SEYMR®.", // Mis à jour
+      "materials": "Suédine haute densité 250 g/m², garnissage viscoélastique", // Mis à jour
+      "specs": { // Specs identiques
+        "diameter": "70 cm",
+        "height": "70 cm"
+      },
+      "images": { // Conservé
+        "main": "assets/pouf-cosmosis-1-ambiance.webp",
+        "gallery": [
+          "assets/pouf-cosmosis-1-ambiance.webp",
+          "assets/pouf-cosmosis-2-ambiance.webp" 
+        ]
+      },
+      "seo": { // Conservé
+        "title": "Pouf COSMOSIS Sphérique | SEYMR®",
+        "description": "Sphère de 70 cm. Suédine Vision 250g/m², rembourrage viscoélastique. Façonnage manuel à Londres.",
+        "keywords": "pouf design, pouf sphérique, sculpture fonctionnelle, mobilier luxe"
+      }
+    },
+    {
+      "id": "tirage-art",
+      "name": "Tirage d'art", 
+      "display_name": "Tirage d'Art | Foulard soie encadré", // Nom mis à jour
+      "tagline": "Manifestation la plus épurée du code SEYMR®.", 
+      "price": "1 400 €", // Prix mis à jour
+      "price_numeric": 1400, // Prix mis à jour
+      "price_cents": 140000, // Prix mis à jour
+      "currency": "EUR",
+      "edition": "Édition mondiale limitée à 11 exemplaires numérotés", // Édition identique
+      "category": "Art",
+      "availability": "Disponible", // Disponibilité mise à jour
+      "delivery_time": "2-3 semaines", // Délai mis à jour
+      "manufacturing": "Londres", 
+      "design": "Guadeloupe", 
+      "featured": false, 
+      "description_short": "Impression HD sur soie 51cm, cadre bois noir FSC.", // Mis à jour
+      "description_long": "Fragment capturé de l'œuvre originale, il ouvre une fenêtre sur les architectures invisibles qui gouvernent la perception de l'espace.", // Mis à jour
+      "materials": "Soie 51cm, Cadre bois noir mat FSC", // Identique
+      "specs": { // Specs identiques
+        "silk_size": "51 cm",
+        "frame_size": "61 cm",
+        "certificate": "Certificat A5 détachable"
+      },
+      "images": { // Conservé
+        "main": "assets/tirage-dart-1-ambiance.webp", // Nom d'image ajusté
+        "gallery": [
+          "assets/tirage-dart-1-ambiance.webp",
+          "assets/tirage-dart-5-detail.webp",
+          "assets/tirage-dart-6-detail.webp"
+        ]
+      },
+      "seo": { // Conservé
+        "title": "Tirage d'Art Numéroté | SEYMR®",
+        "description": "Impression haute définition sur soie 51 cm, cadre bois noir FSC 61 cm. Édition limitée à 11 exemplaires numérotés avec certificat.", // Définition ajustée
+        "keywords": "tirage art, impression soie, art fréquentiel, édition limitée, art contemporain"
+      }
+    },
+    {
+      "id": "sac-conqueror",
+      "name": "Sac CONQUEROR", 
+      "display_name": "Sac « LE CONQUEROR »",
+      "tagline": "Archive mobile et territoire porté.", 
+      "price": "2 400 €", // Prix identique
+      "price_numeric": 2400, // Prix identique
+      "price_cents": 240000, // Prix identique
+      "currency": "EUR",
+      "edition": "Édition mondiale limitée à 99 exemplaires", // Édition mise à jour
+      "category": "Maroquinerie",
+      "availability": "Sur commande",
+      "delivery_time": "4-6 semaines", // Délai mis à jour
+      "manufacturing": "Londres", 
+      "design": "Guadeloupe", 
+      "featured": false, 
+      "description_short": "Cuir pleine fleur grainé, gravure haute précision.", // Mis à jour
+      "description_long": "Ce sac est conçu comme prolongement de votre souveraineté personnelle. Son motif agit comme signature visuelle qui délimite votre espace.", // Mis à jour
+      "materials": "Cuir pleine fleur grainé", // Mis à jour
+      "specs": { // Specs mises à jour
+        "dimensions": "51 x 23 x 28.5 cm",
+        "finishes": "Éléments métalliques acier brossé, coutures fil noir charbon"
+      },
+      "images": { // Conservé
+        "main": "assets/sac-conqueror-1-studio.webp",
+        "gallery": [
+          "assets/sac-conqueror-1-studio.webp",
+          "assets/sac-conqueror-2-studio.webp",
+          "assets/sac-conqueror-3-studio.webp",
+          "assets/sac-conqueror-4-ambiance.webp"
+        ]
+      },
+      "seo": { // Conservé
+        "title": "Sac CONQUEROR en Cuir Pleine Fleur | SEYMR®", // Matériau mis à jour
+        "description": "Sac en cuir pleine fleur grainé (51×23×28,5 cm). Gravure haute précision, acier brossé. Façonné à Londres.", // Mis à jour
+        "keywords": "sac luxe, cuir pleine fleur, maroquinerie, art fréquentiel, accessoire design" // Mis à jour
+      }
+    },
+    {
+      "id": "porte-documents",
+      "name": "Porte-documents", 
+      "display_name": "Porte-Documents", // Majuscule ajustée
+      "tagline": "Objet conçu pour sanctuariser les instruments de votre autorité.", 
+      "price": "1 800 €", // Prix identique
+      "price_numeric": 1800, // Prix identique
+      "price_cents": 180000, // Prix identique
+      "currency": "EUR",
+      "edition": "Édition mondiale limitée à 99 exemplaires", // Édition identique
+      "category": "Maroquinerie",
+      "availability": "Sur commande",
+      "delivery_time": "4-6 semaines", // Délai identique
+      "manufacturing": "Londres", 
+      "design": "Guadeloupe", 
+      "featured": false, 
+      "description_short": "Cuir pleine fleur grainé, transposition haute précision.", // Mis à jour
+      "description_long": "Le motif qui l'enveloppe, issu de notre atelier guadeloupéen, agit comme sceau protecteur, affirmant que le contenu égale en importance le contenant.", // Mis à jour
+      "materials": "Cuir pleine fleur grainé", // Mis à jour
+      "specs": { // Specs mises à jour
+         "finishes": "Éléments métalliques acier brossé, coutures fil noir charbon"
+      },
+      "images": { // Conservé
+        "main": "assets/porte-documents-1-ambiance.webp", // Image principale mise à jour
+        "gallery": [
+          "assets/porte-documents-1-ambiance.webp",
+          "assets/porte-documents-1-studio.webp", 
+          "assets/porte-documents-2-ambiance.webp",
+          "assets/porte-documents-3-ambiance.webp"
+        ]
+      },
+      "seo": { // Conservé
+        "title": "Porte-Documents en Cuir Pleine Fleur | SEYMR®", // Matériau mis à jour
+        "description": "Cuir pleine fleur grainé, transposition haute précision. Édition limitée à 99 exemplaires. Artisanat londonien.", // Mis à jour
+        "keywords": "porte-documents luxe, cuir pleine fleur, maroquinerie, édition limitée, accessoire professionnel" // Mis à jour
+      }
+    },
+    {
+      "id": "valise",
+      "name": "Valise", 
+      "display_name": "Valise", // Nom simplifié
+      "tagline": "Voyager avec cette valise, c'est déplacer votre centre de gravité.", 
+      "price": "3 500 €", // Prix mis à jour
+      "price_numeric": 3500, // Prix mis à jour
+      "price_cents": 350000, // Prix mis à jour
+      "currency": "EUR",
+      "edition": "Édition mondiale limitée à 99 exemplaires", // Édition mise à jour
+      "category": "Maroquinerie",
+      "availability": "Sur commande",
+      "delivery_time": "6-8 semaines", // Délai mis à jour
+      "manufacturing": "Londres", 
+      "design": "Guadeloupe", 
+      "featured": false, 
+      "description_short": "Format cabine, fusion motif sur coque haute précision.", // Mis à jour
+      "description_long": "Elle projette votre identité dans les espaces de transition, transformant le déplacement en affirmation de présence.", // Mis à jour
+      "materials": "Coque protectrice avec design fusionné", // Identique
+      "specs": { // Specs identiques
+        "format": "Cabine standard",
+        "technique": "Fusion haute précision"
+      },
+      "images": { // Conservé mais ajusté (attention aux noms de fichiers réels)
+        "main": "assets/valise-1-studio.webp", // Assumed name based on previous data
+        "gallery": [
+           "assets/valise-1-studio.webp" // Assuming only one image from previous data
+        ]
+      },
+      "seo": { // Mis à jour
+        "title": "Valise SEYMR® - Format Cabine | SEYMR®",
+        "description": "Valise format cabine normalisé. Coque protectrice avec fusion du motif par procédé haute précision. Édition limitée à 99 ex. Façonnée à Londres.",
+        "keywords": "valise luxe, bagage cabine, design, maroquinerie, voyage, édition limitée"
+      }
+    },
+    {
+      "id": "casquette",
+      "name": "Casquette", 
+      "display_name": "Casquette",
+      "tagline": "Au-delà de l'accessoire, un signe d'appartenance.", 
+      "price": "280 €", // Prix mis à jour
+      "price_numeric": 280, // Prix mis à jour
+      "price_cents": 28000, // Prix mis à jour
+      "currency": "EUR",
+      "edition": "Édition mondiale limitée à 99 exemplaires", // Édition mise à jour
+      "category": "Accessoires",
+      "availability": "Disponible", // Disponibilité mise à jour
+      "delivery_time": "1-2 semaines", // Délai mis à jour
+      "manufacturing": "Londres", 
+      "design": "Guadeloupe", 
+      "featured": false, 
+      "description_short": "Satin de soie 85 g/m², détails nickelés.", // Mis à jour
+      "description_long": "La porter affirme une adhésion à une philosophie et une esthétique qui transcendent les codes conventionnels. Le motif émane directement de l'art visuel SEYMR®.", // Mis à jour
+      "materials": "Satin de soie 85 g/m²", // Identique
+      "specs": { // Specs mises à jour
+        "finishes": "Surpiqûres ton crème, détails métalliques nickelés"
+      },
+      "images": { // Conservé
+        "main": "assets/casquette-1-studio.webp",
+        "gallery": [
+          "assets/casquette-1-studio.webp",
+          "assets/casquette-2-studio.webp",
+          "assets/casquette-3-studio.webp",
+          "assets/casquette-4-ambiance.webp"
+        ]
+      },
+      "seo": { // Mis à jour
+        "title": "Casquette SEYMR® en Satin de Soie | Accessoire Design",
+        "description": "Casquette design en satin de soie 85 g/m². Transposition fidèle du code SEYMR®, surpiqûres ton crème. Édition limitée 99 ex.",
+        "keywords": "casquette design, accessoire mode, art fréquentiel, casquette luxe, soie, édition limitée"
+      }
+    },
+    // Entrées spéciales pour le formulaire (inchangées)
+    {
+      "id": "le-livre",
+      "name": "Le Livre",
+      "display_name": "Le Livre",
+      "tagline": "Édition collector",
+      "price": null,
+      "price_numeric": null,
+      "price_cents": null,
+      "currency": "EUR",
+      "edition": "Sur demande",
+      "category": "Édition",
+      "availability": "Sur demande",
+      "delivery_time": "À définir",
+      "manufacturing": "Londres",
+      "design": "Guadeloupe",
+      "featured": false,
+      "description_short": "Édition collector - Sur demande",
+      "description_long": "Une édition collector qui documente l'univers SEYMR®. Disponible sur demande uniquement.",
+      "materials": "À définir",
+      "images": { "main": "assets/livre-placeholder.webp", "gallery": [] },
+      "seo": null 
+    },
+    {
+      "id": "autre",
+      "name": "Autre",
+      "display_name": "Autre demande",
+      "tagline": "Création sur mesure",
+      "price": null,
+      "price_numeric": null,
+      "price_cents": null,
+      "currency": "EUR",
+      "edition": "À définir",
+      "category": "Sur mesure",
+      "availability": "Sur demande",
+      "delivery_time": "À définir",
+      "manufacturing": "Londres",
+      "design": "Guadeloupe",
+      "featured": false,
+      "description_short": "Création sur mesure",
+      "description_long": "Partagez votre vision avec notre équipe pour une création personnalisée.",
+      "materials": "À définir",
+      "images": { "main": "assets/custom-placeholder.webp", "gallery": [] },
+      "seo": null 
+    }
+  ]
+}
